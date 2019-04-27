@@ -1,0 +1,91 @@
+[20:43:19] [main/INFO]: Setting user: Player707
+[20:43:26] [main/WARN]: Skipping bad option: lastServer:
+[20:43:26] [main/INFO]: LWJGL Version: 2.9.4
+[20:43:32] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:ChemisTREE
+[20:43:36] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[20:43:36] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[20:43:36] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:43:37] [Thread-5/INFO]: OpenAL initialized.
+[20:43:37] [Sound Library Loader/INFO]: Sound engine started
+[20:43:43] [main/INFO]: Created: 512x512 textures-atlas
+[20:43:47] [main/WARN]: Skipping bad option: lastServer:
+[20:43:47] [main/INFO]: Narrator library for x64 successfully loaded
+[20:43:50] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[20:43:55] [Server thread/INFO]: Starting integrated minecraft server version 1.12
+[20:43:55] [Server thread/INFO]: Generating keypair
+[20:43:57] [Server thread/INFO]: Loaded 488 advancements
+[20:43:57] [Server thread/INFO]: Preparing start region for level 0
+[20:43:58] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:44:00] [Server thread/INFO]: Player707[local:E:c4320101] logged in with entity id 111 at (-964.1307811790274, 4.0, 423.18548074403844)
+[20:44:00] [Server thread/INFO]: Player707 joined the game
+[20:44:01] [Server thread/INFO]: Saving and pausing game...
+[20:44:01] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[20:44:01] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[20:44:01] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[20:44:01] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@19c68e6f[id=6ef60f0d-ee89-3acd-9711-6e64aaf89fef,name=Player707,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3170) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_201]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_201]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+[20:44:02] [main/WARN]: Unable to play empty soundEvent: minecraft:entity.small_slime.squish
+[20:44:02] [main/WARN]: Unable to play empty soundEvent: minecraft:entity.small_slime.jump
+[20:44:20] [main/INFO]: [CHAT] There is no such block with name chemistree:hcl_fluid
+[20:44:29] [Server thread/INFO]: Saving and pausing game...
+[20:44:29] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[20:44:29] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[20:44:29] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[20:44:39] [main/INFO]: [CHAT] There is no such block with name minecraft:acid_hcl
+[20:44:40] [Server thread/INFO]: Saving and pausing game...
+[20:44:40] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[20:44:40] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[20:44:40] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[20:44:44] [Server thread/INFO]: Saving and pausing game...
+[20:44:44] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[20:44:44] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[20:44:44] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[20:47:18] [Server thread/INFO]: [Player707: Given [Bucket] * 1 to Player707]
+[20:47:18] [main/INFO]: [CHAT] Given [Bucket] * 1 to Player707
+[20:47:20] [Server thread/INFO]: Saving and pausing game...
+[20:47:20] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[20:47:20] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[20:47:20] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[20:47:28] [main/INFO]: [CHAT] /setblock, /setworldspawn
+[20:47:32] [main/INFO]: [CHAT] minecraft:flower_pot, minecraft:flowing_lava, minecraft:flowing_water
+[20:47:39] [main/INFO]: [CHAT] There is no such block with name minecraft:ch
+[21:32:55] [main/INFO]: [CHAT] There is no such block with name minecraft:ch
+[21:33:00] [main/INFO]: [CHAT] /?, /advancement, /blockdata, /clear, /clone, /debug, /defaultgamemode, /difficulty, /effect, /enchant, /entitydata, /execute, /fill, /forge, /function, /gamemode, /gamerule, /give, /help, /kill, /locate, /me, /msg, /particle, /playsound, /publish, /recipe, /reload, /replaceitem, /say, /scoreboard, /seed, /setblock, /setworldspawn, /spawnpoint, /spreadplayers, /stats, /stopsound, /summon, /teleport, /tell, /tellraw, /testfor, /testforblock, /testforblocks, /time, /title, /toggledownfall, /tp, /trigger, /w, /weather, /worldborder, /xp
+[21:33:08] [main/INFO]: [CHAT] Usage: Use /forge <subcommand>. Subcommands are tps, track
+[21:33:11] [main/INFO]: [CHAT] Usage: Use /forge <subcommand>. Subcommands are tps, track
+[21:46:16] [Server thread/INFO]: Saving and pausing game...
+[21:46:16] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[21:46:16] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[21:46:16] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[21:46:16] [Server thread/INFO]: Stopping server
+[21:46:16] [Server thread/INFO]: Saving players
+[21:46:16] [Server thread/INFO]: Player707 lost connection: Disconnected
+[21:46:16] [Server thread/INFO]: Player707 left the game
+[21:46:16] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[21:46:16] [Server thread/INFO]: Saving worlds
+[21:46:16] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[21:46:16] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[21:46:16] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[21:46:18] [main/INFO]: Stopping!
+[21:46:18] [main/INFO]: SoundSystem shutting down...
+[21:46:19] [main/WARN]: Author: Paul Lamb, www.paulscode.com
