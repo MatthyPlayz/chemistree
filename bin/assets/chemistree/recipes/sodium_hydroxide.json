@@ -8,7 +8,7 @@
   "key": {
     "S": [
       {
-        "item": "saltmod:salt",
+        "item": "chemistree:salt",
         "data": 0
       }
     ],
@@ -22,6 +22,6 @@
   "result": {
     "item": "chemistree:sodium_hydroxide",
     "data": 0,
-    "count": 1
+    "count": 64
   }
 }

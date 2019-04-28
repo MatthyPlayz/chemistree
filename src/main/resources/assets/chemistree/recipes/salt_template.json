@@ -1,0 +1,26 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ppp",
+    "pbp",
+    "ppp"  ],
+  "key": {
+    "p": [
+      {
+        "item": "minecraft:planks",
+        "data": 0
+      }
+    ],
+    "b": [
+      {
+        "item": "minecraft:dye",
+        "data": 15
+      }
+    ]
+  },
+  "result": {
+    "item": "chemistree:salt_template",
+    "data": 0,
+    "count": 8
+  }
+}

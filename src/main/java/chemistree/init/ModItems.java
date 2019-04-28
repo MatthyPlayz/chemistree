@@ -26,9 +26,13 @@ public class ModItems {
 	static Item magnet;
 	static Item wire;
 	static Item motor;
-	//static Item crusher;
+	static Item crusher;
+	static Item crushedSodiumHydroxide;
+	static Item saltTemplate;
+	static Item salt;
+	static Item magnesiumPowder;
 	public static void init() {
-		//saltymod required items
+		//salt required items
 		brine = new ItemBasic("brine");
 		
 		//flasks
@@ -38,7 +42,7 @@ public class ModItems {
 		//machines
 		electroMachine = new ItemBasic("electrolysis_machine");
 		amcoh = new ItemBasic("amc_100");
-		//crusher = new ItemBasic("crusher");
+		crusher = new ItemBasic("crusher");
 		
 		//parts to machines
 		wire = new ItemBasic("wire");
@@ -47,6 +51,9 @@ public class ModItems {
 		//elements
 		hydrogenChloride = new ItemBasic("hydrogen_chloride");
 		sodiumHydroxide = new ItemBasic("sodium_hydroxide");
+		crushedSodiumHydroxide = new ItemBasic("crushed_sodium_hydroxide");
+		salt = new ItemBasic("salt");
+		magnesiumPowder = new ItemBasic("magnesium_powder");
 		
 		//misc
 		saltwater = new ItemBasic("saltwater_flask");
@@ -55,14 +62,16 @@ public class ModItems {
 		
 		// templates for AMC-100
 		magnetTemplate = new ItemBasic("magnet_template");
+		saltTemplate = new ItemBasic("salt_template");
 		
-		// products of AMC-100
+	    // products of AMC-100
 		magnet = new ItemBasic("magnet");
 	}
 	
 	@SubscribeEvent
 	public static void registerItems(RegistryEvent.Register<Item> event) {
-		event.getRegistry().registerAll(flaskItem, 
+		event.getRegistry().registerAll(
+				flaskItem, 
 				electroMachine, 
 				brine, 
 				hydrogenChloride, 
@@ -75,8 +84,12 @@ public class ModItems {
 				magnetTemplate,
 				magnet,
 				wire,
-				motor
-				//crusher
+				motor,
+				crusher,
+				crushedSodiumHydroxide,
+				saltTemplate,
+				salt,
+				magnesiumPowder
 				);
 	}
 	@SubscribeEvent
@@ -95,7 +108,11 @@ public class ModItems {
 		registerRender(magnet);
 		registerRender(wire);
 		registerRender(motor);
-		//registerRender(crusher);
+		registerRender(crusher);
+		registerRender(crushedSodiumHydroxide);
+		registerRender(saltTemplate);
+		registerRender(salt);
+		registerRender(magnesiumPowder);
 	}
 	private static void registerRender(Item item) {
 		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation( item.getRegistryName(), "inventory"));

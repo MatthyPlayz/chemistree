@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "chemistree:items/crusher"
+        "layer0": "chemistree:items/magnesium_powder"
      },
      
     "display": {

@@ -1,0 +1,25 @@
+ { 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GaG",
+    "GGG"  ],
+  "key": {
+    "G": [
+      {
+        "item": "minecraft:fish",
+        "data": 0
+      }
+    ],
+    "a": [
+      {
+        "item": "chemistree:amc_100",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "chemistree:magnesium_powder",
+    "data": 0
+  }
+}

@@ -9,7 +9,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid=Reference.MODID, name=Reference.MODNAME, version=Reference.VERSION, acceptedMinecraftVersions=Reference.ACCEPTED_MINECRAFT_VERSIONS, dependencies = "required-after:saltmod;")
+@Mod(modid=Reference.MODID, name=Reference.MODNAME, version=Reference.VERSION, acceptedMinecraftVersions=Reference.ACCEPTED_MINECRAFT_VERSIONS)
 public class ChemisTREE {
 	@Instance
 	public static ChemisTREE instance;
@@ -17,7 +17,6 @@ public class ChemisTREE {
 	public void preInit(FMLPreInitializationEvent event) {
 		System.out.println(Reference.MODID + ":preInit");
 		ModItems.init();
-		ModBlocks.init();
 	}
 	
 	@EventHandler

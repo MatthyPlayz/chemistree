@@ -1,0 +1,32 @@
+ { 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "MSL",
+    "   "  ],
+  "key": {
+    "M": [
+      {
+        "item": "chemistree:magnesium_powder",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "chemistree:sodium_hydroxide",
+        "data": 0
+      }
+    ],
+    "L": [
+      {
+        "item": "minecraft:lava_bucket",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "chemistree:salt",
+    "data": 0,
+    "count": 64
+  }
+}

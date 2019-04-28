@@ -1,6 +1,19 @@
 {
-    "parent": "block/cube_all",
+    "parent": "item/generated",
     "textures": {
-        "all": "chemistree:blocks/crusher"
+        "layer0": "chemistree:items/crusher"
+     },
+     
+    "display": {
+        "thirdperson": {
+            "rotation": [-90,0,0],
+            "translation": [0,1,-3],
+            "scale": [0.55,0.55,0.55]
+        },
+        "firstperson": {
+            "rotation": [0,-135,25],
+            "translation": [0,4,2],
+            "scale": [1.7,1.7,1.7]
+        }
     }
 }

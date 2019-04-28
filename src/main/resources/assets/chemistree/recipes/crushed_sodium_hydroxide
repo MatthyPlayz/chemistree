@@ -1,25 +1,25 @@
 { 
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "AAA",
-    "AWA",
-    "AAA"  ],
+    " S",
+    "SSS",
+    " C "  ],
   "key": {
-    "A": [
+    "S": [
       {
-        "item": "chemistree:salt",
+        "item": "chemistree:sodium_hydroxide",
         "data": 0
       }
     ],
-    "W": [
+    "C": [
       {
-        "item": "minecraft:water_bucket",
+        "item": "chemistree:crusher",
         "data": 0
       }
     ]
   },
   "result": {
-    "item": "chemistree:brine",
+    "item": "chemistree:crused_sodium_hydroxide",
     "data": 0,
     "count": 8
   }
