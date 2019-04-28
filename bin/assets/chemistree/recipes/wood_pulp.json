@@ -1,0 +1,27 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "SWS",
+    "   "  
+  ],
+  "key": {
+    "S": [
+      {
+        "item": "chemistree:sodium_hydroxide",
+        "data": 0
+      }
+    ],
+    "W": [
+      {
+        "item": "minecraft:planks",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "chemistree:wood_pulp",
+    "data": 0,
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "gig",
+    "AdA",
+    "AAA"  
+  ],
+  "key": {
+    "g": [
+      {
+        "item": "minecraft:gold_ore",
+        "data": 0
+      }
+    ],
+    "d": [
+      {
+        "item": "minecraft:diamond",
+        "data": 0
+      }
+    ],
+    "A": [
+      {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      }
+    ],
+    "i": [
+      {
+        "item": "minecraft:iron_ore",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "chemistree:amc_100",
+    "data": 0,
+    "count": 8
+  }
+}

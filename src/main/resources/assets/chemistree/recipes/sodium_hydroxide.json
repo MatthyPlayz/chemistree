@@ -1,0 +1,27 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "SDS",
+    "   "  
+  ],
+  "key": {
+    "S": [
+      {
+        "item": "saltmod:salt",
+        "data": 0
+      }
+    ],
+    "D": [
+      {
+        "item": "chemistree:detergent",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "chemistree:sodium_hydroxide",
+    "data": 0,
+    "count": 1
+  }
+}

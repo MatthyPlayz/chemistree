@@ -1,0 +1,11 @@
+[20:36:30] [main/INFO]: Setting user: Player677
+[20:36:37] [main/WARN]: Skipping bad option: lastServer:
+[20:36:37] [main/INFO]: LWJGL Version: 2.9.4
+[20:36:41] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+[20:36:45] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[20:36:45] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[20:36:45] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:36:45] [Thread-5/INFO]: OpenAL initialized.
+[20:36:46] [Sound Library Loader/INFO]: Sound engine started
+[20:36:47] [main/INFO]: Narrator library for x64 successfully loaded
+[20:36:48] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id

@@ -1,0 +1,26 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SES",
+    " S "
+  ],
+  "key": {
+    "S": [
+      {
+        "item": "chemistree:sodium_hydroxide",
+        "data": 0
+      }
+    ],
+    "E": [
+      {
+        "item": "chemistree:electrolysis_machine",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "chemistree:detergent",
+    "data": 0
+  }
+}

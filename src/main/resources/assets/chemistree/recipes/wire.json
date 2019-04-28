@@ -1,0 +1,27 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ARA",
+    "ARA",
+    "ARA"  
+  ],
+  "key": {
+    "R": [
+      {
+        "item": "minecraft:redstone",
+        "data": 0
+      }
+    ],
+    "A": [
+      {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "chemistree:wire",
+    "data": 0,
+    "count": 32
+  }
+}

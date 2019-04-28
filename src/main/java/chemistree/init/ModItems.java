@@ -17,18 +17,67 @@ public class ModItems {
 	static Item brine;
 	static Item hydrogenChloride;
 	static Item flaskHclItem;
-	
+	static Item saltwater;
+	static Item detergent;
+	static Item sodiumHydroxide;
+	static Item woodPulp;
+	static Item amcoh;
+	static Item magnetTemplate;
+	static Item magnet;
+	static Item wire;
+	static Item motor;
+	//static Item crusher;
 	public static void init() {
+		//saltymod required items
 		brine = new ItemBasic("brine");
+		
+		//flasks
 		flaskItem = new ItemBasic("flask");
-		electroMachine = new ItemBasic("electrolysis_machine");
-		hydrogenChloride = new ItemBasic("hydrogen_chloride");
 		flaskHclItem = new ItemBasic("flask_hcl");
+		
+		//machines
+		electroMachine = new ItemBasic("electrolysis_machine");
+		amcoh = new ItemBasic("amc_100");
+		//crusher = new ItemBasic("crusher");
+		
+		//parts to machines
+		wire = new ItemBasic("wire");
+		motor = new ItemBasic("motor");
+		
+		//elements
+		hydrogenChloride = new ItemBasic("hydrogen_chloride");
+		sodiumHydroxide = new ItemBasic("sodium_hydroxide");
+		
+		//misc
+		saltwater = new ItemBasic("saltwater_flask");
+		detergent = new ItemBasic("detergent");
+		woodPulp = new ItemBasic("wood_pulp");
+		
+		// templates for AMC-100
+		magnetTemplate = new ItemBasic("magnet_template");
+		
+		// products of AMC-100
+		magnet = new ItemBasic("magnet");
 	}
 	
 	@SubscribeEvent
 	public static void registerItems(RegistryEvent.Register<Item> event) {
-		event.getRegistry().registerAll(flaskItem, electroMachine, brine, hydrogenChloride, flaskHclItem);
+		event.getRegistry().registerAll(flaskItem, 
+				electroMachine, 
+				brine, 
+				hydrogenChloride, 
+				flaskHclItem, 
+				saltwater, 
+				detergent,
+				sodiumHydroxide,
+				woodPulp,
+				amcoh,
+				magnetTemplate,
+				magnet,
+				wire,
+				motor
+				//crusher
+				);
 	}
 	@SubscribeEvent
 	public static void registerRenders(ModelRegistryEvent event) {
@@ -37,8 +86,17 @@ public class ModItems {
 		registerRender(brine);
 		registerRender(hydrogenChloride);
 		registerRender(flaskHclItem);
+		registerRender(saltwater);
+		registerRender(detergent);
+		registerRender(sodiumHydroxide);
+		registerRender(woodPulp);
+		registerRender(amcoh);
+		registerRender(magnetTemplate);
+		registerRender(magnet);
+		registerRender(wire);
+		registerRender(motor);
+		//registerRender(crusher);
 	}
-	
 	private static void registerRender(Item item) {
 		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation( item.getRegistryName(), "inventory"));
 	}

@@ -1,0 +1,32 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IMI",
+    "CCC"
+  ],
+  "key": {
+    "I": [
+      {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      }
+    ],
+    "C": [
+      {
+        "item": "minecraft:cobblestone",
+        "data": 0
+      }
+    ],
+    "M": [
+      {
+        "item": "chemistree:motor",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "chemistree:crusher",
+    "data": 0
+  }
+}

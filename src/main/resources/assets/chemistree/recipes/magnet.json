@@ -1,0 +1,33 @@
+ { 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "mim",
+    " a ",
+    "   "  
+  ],
+  "key": {
+    "m": [
+      {
+        "item": "chemistree:magnet_template",
+        "data": 0
+      }
+    ],
+    "a": [
+      {
+        "item": "chemistree:amc_100",
+        "data": 0
+      }
+    ],
+    "i": [
+      {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "chemistree:magnet",
+    "data": 0,
+    "count": 8
+  }
+}

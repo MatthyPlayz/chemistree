@@ -1,0 +1,38 @@
+ { 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ppp",
+    "bpr",
+    "iii"  ],
+  "key": {
+    "p": [
+      {
+        "item": "minecraft:planks",
+        "data": 0
+      }
+    ],
+    "r": [
+      {
+        "item": "minecraft:dye",
+        "data": 1
+      }
+    ],
+    "i": [
+      {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      }
+    ],
+    "b": [
+      {
+        "item": "minecraft:dye",
+        "data": 15
+      }
+    ]
+  },
+  "result": {
+    "item": "chemistree:magnet_template",
+    "data": 0,
+    "count": 8
+  }
+}

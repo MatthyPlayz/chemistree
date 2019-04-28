@@ -1,5 +1,6 @@
 package chemistree;
 
+import chemistree.init.ModBlocks;
 import chemistree.init.ModItems;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -16,6 +17,7 @@ public class ChemisTREE {
 	public void preInit(FMLPreInitializationEvent event) {
 		System.out.println(Reference.MODID + ":preInit");
 		ModItems.init();
+		ModBlocks.init();
 	}
 	
 	@EventHandler

@@ -1,0 +1,33 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "AFW",
+    "   "  
+  ],
+  "key": {
+    "A": [
+      {
+        "item": "saltmod:salt",
+        "data": 0
+      }
+    ],
+    "F": [
+      {
+        "item": "chemistree:flask",
+        "data": 0
+      }
+    ],
+    "W": [
+      {
+        "item": "minecraft:water_bucket",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "chemistree:saltwater_flask",
+    "data": 0,
+    "count": 1
+  }
+}
