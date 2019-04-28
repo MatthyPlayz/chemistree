@@ -1,2 +1,14 @@
 item.flask.name=Flask
 item.electrolysis_machine.name=Electrolysis Machine
+item.flask_hcl.name=Flask (HCl Filled)
+item.hydrogen_chloride.name=Hydrogen Chloride
+item.amc_100.name=Artificial Magnet Creator 100 (AMC)
+block.crusher.name=Crusher
+item.brine.name=Brine
+item.magnet_template.name=Magnet Template
+item.magnet.name=Magnet
+item.motor.name=Motor
+item.saltwater_flask.name=Flask (Saltwater Filled)
+item.sodium_hydroxide.name=Sodium Hydroxide
+item.wire.name=Wire
+item.wood_pulp.name=Wood Pulp
